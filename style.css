@@ -47,4 +47,54 @@ header ul {
 header a {
     color: purple;
     font-weight: 500;
+    text-decoration: none;
 }
+
+#page-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 20px;
+}
+
+#page-liens {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+#page-bouton1 {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #222;
+    color: #4a90e2;
+    text-decoration: none;
+    border: 1px solid #444;
+    border-radius: 6px;
+}
+
+#page-bouton2 {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #222;
+    color: #4a90e2;
+    text-decoration: none;
+    border: 1px solid #444;
+    border-radius: 6px;
+}
+
+#page-bouton3 {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #222;
+    color: #4a90e2;
+    text-decoration: none;
+    border: 1px solid #444;
+    border-radius: 6px;
+}
+
