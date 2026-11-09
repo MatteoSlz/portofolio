@@ -2,7 +2,6 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: black;
     color: white;
-    line-height: 1.6;
 }
 
 main {
@@ -32,5 +31,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px gray;
+}
+
+header strong {
+    color: #38bdf8;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    color: purple;
+    font-weight: 500;
 }
